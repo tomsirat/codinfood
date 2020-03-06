@@ -1,0 +1,113 @@
+/* 
+ 
+Theme Name: codinfood_child
+
+Template: codinfood
+
+*/
+.karadoc {
+  text-align: center;
+  color: red;
+  margin-bottom: 3rem;
+  padding: 1rem; }
+
+nav {
+  color: white; }
+  nav .icon {
+    padding: 1rem; }
+
+.navbar ul {
+  display: flex;
+  flex-direction: row; }
+  .navbar ul li a {
+    padding: 1rem; }
+
+p, .text {
+  text-align: center; }
+
+header {
+  background-image: url("59162_w800h600c1cx1500cy975.jpg");
+  background-size: cover;
+  width: 120rem;
+  height: 100vh; }
+
+.title {
+  font-style: italic;
+  color: white;
+  width: 60%; }
+
+nav > h2, > p, .name {
+  color: white;
+  font-family: "Times New Roman", Times, serif; }
+
+.home {
+  text-align: right;
+  width: 40%; }
+
+.text {
+  font-weight: bold;
+  padding: 1rem; }
+
+header > p {
+  margin-bottom: 10rem; }
+
+.name {
+  margin-top: 10rem;
+  text-align: center;
+  font-style: italic; }
+
+@media screen and (max-width: 425px) {
+  header {
+    background-image: none; }
+
+  .text {
+    font-size: 25px; }
+
+  nav {
+    color: black;
+    font-weight: bold;
+    width: 45%; } }
+@media screen and (max-width: 728px) {
+  header {
+    width: 50rem; } }
+.img-gallery-box {
+  margin: 0 !important;
+  padding: 0 !important; }
+  .img-gallery-box .img-gallery {
+    width: 100%; }
+
+.contact-us-box {
+  background-image: url("https://images.unsplash.com/photo-1560180474-e8563fd75bab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+
+.lign-style {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: white; }
+
+.journey-introduction-box {
+  background-color: white;
+  color: black;
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+
+footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+@media screen and (max-width: 1023px) {
+  footer {
+    flex-direction: column; }
+    footer .plop-footer-box, footer .navigation-footer-box, footer .newsletter-footer-box {
+      padding-bottom: 2rem; } }
+
+/*# sourceMappingURL=style.css.map */

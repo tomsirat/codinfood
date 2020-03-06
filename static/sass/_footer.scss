@@ -1,0 +1,21 @@
+footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+ul , li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+// media queries //
+
+@media screen and (max-width: 1023px) {
+    footer {
+        flex-direction: column;
+        .plop-footer-box , .navigation-footer-box , .newsletter-footer-box {
+            padding-bottom: 2rem;
+        }
+    }
+}

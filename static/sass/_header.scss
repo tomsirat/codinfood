@@ -1,0 +1,79 @@
+.karadoc{
+    text-align: center;
+    color: red;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+nav {
+    color: white;
+    .icon{
+        padding: 1rem;
+    }
+}
+.navbar {
+    ul{
+    display: flex;
+    flex-direction: row;
+    li{
+        a{
+            padding: 1rem;
+        }
+    }
+    }
+}
+p, .text {
+    text-align: center;
+}
+header {
+    background-image: url("59162_w800h600c1cx1500cy975.jpg");
+    background-size: cover;
+    width: 120rem;
+    height: 100vh;
+}
+.title {
+    font-style: italic;
+    color: white;
+    width: 60%;
+}
+nav > h2,> p, .name {
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+.home{
+    text-align: right;
+    width: 40%;
+   
+}
+.text {
+    font-weight: bold;
+    padding: 1rem;
+}
+header>p {
+    margin-bottom: 10rem;
+}
+.name {
+    margin-top: 10rem;
+    text-align: center;
+    font-style: italic;
+}
+@media screen and (max-width: 425px)
+{
+    header {
+        background-image: none;
+    }
+    .text {
+        font-size: 25px;
+    }
+    nav{
+        color: black;
+        font-weight: bold;
+        width: 45%
+    }
+}
+@media screen and (max-width: 728px)
+{
+    header {
+        width: 50rem;
+    }
+}
